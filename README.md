@@ -43,7 +43,7 @@ $env:SPOTIPY_REDIRECT_URI="http://localhost:8888/callback"
 
 ### 4) Place the file with album list 
 
-Make sure the file name is albums.txt and is located in the same path as the script.
+Make sure the file name is `albums.txt` and is located in the same path as the script.
 
 ### 5) Run the script
 
