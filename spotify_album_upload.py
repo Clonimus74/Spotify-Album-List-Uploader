@@ -6,7 +6,7 @@ import time
 # --- CONFIG: change these ---
 CLIENT_ID = "<your_spotify_client_id>"
 CLIENT_SECRET = "<your_spotify_client_secret>"
-REDIRECT_URI = "http://localhost:8888/callback"
+REDIRECT_URI = "http://127.0.0.1:8888/callback"
 SCOPE = "user-library-modify"
 TXT_FILE = "albums.txt"   # your text file, one album per line. Prefer "Artist - Album"
 
@@ -76,3 +76,4 @@ if failed:
     print("Failed to match these items (review names or add artist info):")
     for f in failed:
         print("-", f)
+
